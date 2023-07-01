@@ -1,0 +1,46 @@
+
+#hero{
+    background-color: #221f28;
+}
+.head-text{
+    font-family: Georgia, serif;
+    letter-spacing: .2rem;
+    color: #c4ceab ;
+}
+.lead{
+    font-family: cursive;
+    color: #c3c8e7;
+}
+.myimg{
+    border-radius: 50%;
+}
+.txt{
+    color: #221f28 !important;
+}
+.parent{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto ;
+}
+.cam-img {
+    border-radius: 50%;
+}
+.text-body-primary{
+    color:#c3c8e7 !important ;
+}
+.cp{
+    color:#c4ceab !important;
+}
+#last{
+    background-color:#221f28 ;
+}
+@media screen and (max-width:768px){
+    .parent{
+        width: 100%;
+    }
+    
+}
